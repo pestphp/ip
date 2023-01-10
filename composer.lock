@@ -947,46 +947,46 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "78e81f59e8a1d7c69f73cf3b98ca2622c7c99742"
+                "reference": "f1fd3d31f0c9801ae58050c1b040df3b4b94d88d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/78e81f59e8a1d7c69f73cf3b98ca2622c7c99742",
-                "reference": "78e81f59e8a1d7c69f73cf3b98ca2622c7c99742",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/f1fd3d31f0c9801ae58050c1b040df3b4b94d88d",
+                "reference": "f1fd3d31f0c9801ae58050c1b040df3b4b94d88d",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "^2.0",
+                "doctrine/inflector": "^2.0.6",
                 "dragonmantank/cron-expression": "^3.3.2",
-                "egulias/email-validator": "^3.2.1",
+                "egulias/email-validator": "^3.2.5",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
                 "fruitcake/php-cors": "^1.2",
                 "laravel/serializable-closure": "^1.2.2",
-                "league/commonmark": "^2.2.1",
-                "league/flysystem": "^3.8.0",
-                "monolog/monolog": "^3.0",
-                "nesbot/carbon": "^2.62.1",
-                "nunomaduro/termwind": "^1.13",
+                "league/commonmark": "^2.3.8",
+                "league/flysystem": "^3.12.0",
+                "monolog/monolog": "^3.2",
+                "nesbot/carbon": "^2.64.1",
+                "nunomaduro/termwind": "^1.15",
                 "php": "^8.1",
-                "psr/container": "^1.1.1|^2.0.1",
+                "psr/container": "^1.1.1|^2.0.2",
                 "psr/log": "^1.0|^2.0|^3.0",
                 "psr/simple-cache": "^1.0|^2.0|^3.0",
-                "ramsey/uuid": "^4.7",
-                "symfony/console": "^6.2",
-                "symfony/error-handler": "^6.2",
-                "symfony/finder": "^6.2",
-                "symfony/http-foundation": "^6.2",
-                "symfony/http-kernel": "^6.2",
-                "symfony/mailer": "^6.2",
-                "symfony/mime": "^6.2",
+                "ramsey/uuid": "^4.7.1",
+                "symfony/console": "^6.2.3",
+                "symfony/error-handler": "^6.2.3",
+                "symfony/finder": "^6.2.3",
+                "symfony/http-foundation": "^6.2.2",
+                "symfony/http-kernel": "^6.2.4",
+                "symfony/mailer": "^6.2.2",
+                "symfony/mime": "^6.2.2",
                 "symfony/process": "^6.2",
-                "symfony/routing": "^6.2",
+                "symfony/routing": "^6.2.3",
                 "symfony/uid": "^6.2",
-                "symfony/var-dumper": "^6.2",
-                "tijsverkoyen/css-to-inline-styles": "^2.2.5",
-                "vlucas/phpdotenv": "^5.4.1",
-                "voku/portable-ascii": "^2.0"
+                "symfony/var-dumper": "^6.2.3",
+                "tijsverkoyen/css-to-inline-styles": "^2.2.6",
+                "vlucas/phpdotenv": "^5.5.0",
+                "voku/portable-ascii": "^2.0.1"
             },
             "conflict": {
                 "tightenco/collect": "<5.5.33"
@@ -1030,23 +1030,24 @@
                 "illuminate/view": "self.version"
             },
             "require-dev": {
-                "ably/ably-php": "^1.0",
-                "aws/aws-sdk-php": "^3.235.5",
-                "doctrine/dbal": "^3.5.1",
+                "ably/ably-php": "^1.1.9",
+                "aws/aws-sdk-php": "^3.255.9",
+                "doctrine/dbal": "^3.5.2",
                 "fakerphp/faker": "^1.21",
                 "guzzlehttp/guzzle": "^7.5",
-                "league/flysystem-aws-s3-v3": "^3.0",
-                "league/flysystem-ftp": "^3.0",
-                "league/flysystem-path-prefixing": "^3.3",
-                "league/flysystem-read-only": "^3.3",
-                "league/flysystem-sftp-v3": "^3.0",
+                "league/flysystem-aws-s3-v3": "^3.10.3",
+                "league/flysystem-ftp": "^3.10.3",
+                "league/flysystem-path-prefixing": "^3.10.4",
+                "league/flysystem-read-only": "^3.10",
+                "league/flysystem-sftp-v3": "^3.10.3",
                 "mockery/mockery": "^1.5.1",
                 "orchestra/testbench-core": "dev-phpunit10",
-                "pda/pheanstalk": "^4.0",
-                "phpstan/phpstan": "^1.4.7",
+                "pda/pheanstalk": "^4.0.4",
+                "phpstan/phpdoc-parser": "^1.15.3",
+                "phpstan/phpstan": "^1.9.7",
                 "phpunit/phpunit": "^9.5.27 || ^10.0",
-                "predis/predis": "^2.0.2",
-                "symfony/cache": "^6.2"
+                "predis/predis": "^2.0.3",
+                "symfony/cache": "^6.2.4"
             },
             "suggest": {
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
@@ -1125,7 +1126,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-12-28T11:44:18+00:00"
+            "time": "2023-01-10T09:13:13+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -5539,16 +5540,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "6a2c0927b4f6ad4eadb5a67fe3835fdad108949d"
+                "reference": "0e7ffdb0af871be10d798e234772ea5d4020ae4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/6a2c0927b4f6ad4eadb5a67fe3835fdad108949d",
-                "reference": "6a2c0927b4f6ad4eadb5a67fe3835fdad108949d",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/0e7ffdb0af871be10d798e234772ea5d4020ae4a",
+                "reference": "0e7ffdb0af871be10d798e234772ea5d4020ae4a",
                 "shasum": ""
             },
             "require": {
@@ -5601,7 +5602,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2022-12-20T17:16:15+00:00"
+            "time": "2023-01-10T20:03:42+00:00"
         },
         {
             "name": "laravel/sail",
@@ -5949,12 +5950,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "feedeab7e33331da847a88334bb408ba6dfc003b"
+                "reference": "15931e241853dfa8649bac5afd577e560501adcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/feedeab7e33331da847a88334bb408ba6dfc003b",
-                "reference": "feedeab7e33331da847a88334bb408ba6dfc003b",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/15931e241853dfa8649bac5afd577e560501adcf",
+                "reference": "15931e241853dfa8649bac5afd577e560501adcf",
                 "shasum": ""
             },
             "require": {
@@ -6046,7 +6047,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-01-10T00:20:49+00:00"
+            "time": "2023-01-10T22:23:52+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -6916,12 +6917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2485b681f5b0234a92deb8fcd7a62e3899fd23bb"
+                "reference": "91b2901cdf9d6d3db6d99bc16af5405276137b58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2485b681f5b0234a92deb8fcd7a62e3899fd23bb",
-                "reference": "2485b681f5b0234a92deb8fcd7a62e3899fd23bb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/91b2901cdf9d6d3db6d99bc16af5405276137b58",
+                "reference": "91b2901cdf9d6d3db6d99bc16af5405276137b58",
                 "shasum": ""
             },
             "require": {
@@ -7009,7 +7010,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-09T12:58:38+00:00"
+            "time": "2023-01-10T16:42:52+00:00"
         },
         {
             "name": "sebastian/cli-parser",
